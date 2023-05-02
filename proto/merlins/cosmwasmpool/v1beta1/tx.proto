@@ -1,0 +1,9 @@
+syntax = "proto3";
+package merlins.cosmwasmpool.v1beta1;
+
+import "gogoproto/gogo.proto";
+import "cosmos/base/v1beta1/coin.proto";
+
+option go_package = "github.com/merlins-labs/merlins/v15/x/cosmwasmpool/types";
+
+service Msg {}
